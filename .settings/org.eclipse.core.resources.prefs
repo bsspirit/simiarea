@@ -1,0 +1,11 @@
+#Wed Jun 30 13:32:36 CST 2010
+eclipse.preferences.version=1
+encoding//src/main/java/org/conan/simiblog/aboutus/web/Sitemap.html=UTF-8
+encoding//src/main/java/org/conan/simiblog/calender/web/DayCalendar.html=UTF-8
+encoding//src/main/java/org/conan/simiblog/calender/web/MonthCalendar.html=UTF-8
+encoding//src/main/java/org/conan/simiblog/calender/web/WeekCalendar.html=UTF-8
+encoding//src/main/java/org/conan/simiblog/calender/web/YearCalendar.html=UTF-8
+encoding//src/main/java/org/conan/simiblog/wicket/component/event/list/EventListPanel.html=UTF-8
+encoding//src/main/java/org/conan/simiblog/wicket/component/register/RegisterPanel.html=UTF-8
+encoding//src/main/java/org/conan/simiblog/wicket/layout/header/HeaderPanel.html=UTF-8
+encoding/<project>=UTF-8

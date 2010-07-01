@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+	<wicket:panel>
+		<form wicket:id="event.list.form">
+			<span wicket:id="event.list.form.feedback">feedback</span>
+			<p>我和朋友：XXX</p>
+			<table width="100%">
+				<tr>
+					<th>序号</th>
+					<th>日期</th>
+					<th>内容	</th>
+					<th>地点	</th>
+					<th>花费	</th>
+					<th>操作	</th>
+				</tr>
+				<tr wicket:id="event.list.table">
+					<td wicket:id="id">1</td>
+					<td wicket:id="date">2010-01-01</td>
+					<td wicket:id="content">西单大跃城看电影</td>
+					<td wicket:id="address">西单大跃城</td>
+					<td wicket:id="cost">60</td>
+					<td>修改&nbsp;删除</td>
+				</tr>
+			</table>
+			<p>
+				<span wicket:id="pageNav">首页 上一页 1 2 3 4 5 下一页 末页</span>
+			</p>
+		</form>
+	</wicket:panel>
+</html>	

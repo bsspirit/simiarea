@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+	<wicket:panel>
+		<form wicket:id="event.add.form" class="form-user">
+	      	<span wicket:id="event.add.form.feedback">feedback</span>		
+	        <p>
+				<label class="f-label" for="eventdate">日期</label>
+				<input name="date" type="text" class="fieldinput_normal" wicket:id="event.add.date"/>
+			</p>
+			<p>
+				<label class="f-label" for="type">内容</label>
+	      			<input wicket:id="event.add.content" name="date" type="text" class="fieldinput_normal"/>
+			</p>
+			<p>
+				<label class="f-label" for="type">地点</label>
+	        	<input wicket:id="event.add.address" name="date" type="text" class="fieldinput_normal"/>
+			</p>
+			<p>
+				<label class="f-label" for="type">花费</label>
+	        	<input wicket:id="event.add.cost" name="date" type="text" class="fieldinput_short"/>元
+			</p>
+			<p>
+				<label class="f-label" for="type">描述:</label>					
+				<textarea wicket:id="event.add.description" name="date" cols="60" rows="5" class="fieldinput_long"></textarea>
+			</p>
+			<p>
+				<label class="f-label">&nbsp;</label>
+				<input wicket:id="event.add.submit" type="submit" class="field_btn" value="确定"/>
+	        </p>
+	    </form>
+	</wicket:panel>
+</html>	

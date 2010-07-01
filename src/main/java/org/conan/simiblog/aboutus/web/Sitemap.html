@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+<wicket:extend>
+<!-- start page -->
+<div id="page">
+	<!-- start content -->
+	<div id="content">
+		<div class="post">
+			<h2 class="title"><b>网站</b>地图</h2>
+			<div class="entry">
+				<ul>
+					<li>
+					公共页面,
+					<a href="Sitemap.html" wicket:id="sitemapLink">站点地图</a>,
+					<a href="Aboutus.html" wicket:id="aboutusLink">关于我们</a>,
+					<a href="Login.html" wicket:id="loginLink">用户登陆</a>,
+					<a href="Register.html" wicket:id="registerLink">用户注册</a>	
+					</li>
+					<li>
+					个人信息,
+					<a href="MyAccount.html" wicket:id="myAccountLink">我的信息</a>,
+					<a href="SweetAccount.html" wicket:id="sweetAccountLink">甜心信息</a>
+					</li>
+					<li>
+					日历信息,
+					<a href="YearCalendar.html" wicket:id="yearCalendarLink">年日历</a>，
+					<a href="MonthCalendar.html" wicket:id="monthCalendarLink">月日历</a>，
+					<a href="WeekCalendar.html" wicket:id="weekCalendarLink">周日历</a>，
+					<a href="DayCalendar.html" wicket:id="dayCalendarLink">日日历</a>
+					</li>
+					<li>
+					个人主页,
+					<a href="MyHome.html" wicket:id="myHomeLink">主页信息</a>		
+					</li>
+					<li>
+					事件信息,
+					<a href="AddEvent.html" wicket:id="addEventLink">增加事件</a>,
+					<a href="ListEvent.html" wicket:id="listEventLink">列表事件</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	<!-- start sidebar -->
+	<div wicket:id="sidebar.panel"></div>
+	<!-- end sidebar -->
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end page -->
+</wicket:extend>
+</html>

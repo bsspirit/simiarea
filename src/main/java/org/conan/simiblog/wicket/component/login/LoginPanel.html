@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+	<wicket:panel>
+		<form wicket:id="login.form" class="form-user">
+    		<span wicket:id="login.form.feedback">错误提示信息</span>
+			<p>
+				<label class="f-label" for="loginname">Email</label>
+				<input wicket:id="login.email" type="text" class="fieldinput_normal" maxlength="50"/>
+			</p>
+			<p>
+				<label class="f-label" for="loginpass">密码</label>
+				<input wicket:id="login.password" type="password" class="fieldinput_normal" maxlength="12"/>
+			</p>
+			<p>
+				<label class="f-label">&nbsp;</label>
+				<label for="remember"><input type="checkbox" name="remember" id="remember" class="f-check" value="on"/> 下次自动登录</label>
+			</p>
+			<p>
+				<label class="f-label">&nbsp;</label>
+				<input wicket:id="login.submit" type="submit" class="field_btn" value="登录"/>
+				 或者 <a href="/register">注册一个帐号</a>	
+			</p>
+			<p>
+				<label class="f-label">&nbsp;</label>
+				如果忘记密码，请<a href="/reset">点击这里重设密码</a>。
+			</p>
+		</form>
+	</wicket:panel>
+</html>

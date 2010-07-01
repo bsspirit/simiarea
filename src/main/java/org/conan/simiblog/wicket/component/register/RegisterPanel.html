@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd" >
+	<wicket:panel>
+		<form wicket:id="register.form" class="form-user">
+    		<span wicket:id="register.form.feedback">错误提示信息</span>
+			<p>
+				<label class="f-label" for="email">Email</label>
+				<input wicket:id="register.email" name="email" type="text" class="fieldinput_normal" maxlength="12"/>
+				<span class="hint">请填写真实邮箱，不会对外公开</span>
+			</p>
+			<p>
+				<label class="f-label" for="loginpass">密码</label>
+				<input wicket:id="register.password" type="password" name="loginpass" class="fieldinput_normal" maxlength="12"/>
+				<span class="hint">最少 6 个字符</span>
+			</p>
+			<p>
+				<label class="f-label" for="repassword">重复密码</label>
+				<input wicket:id="register.repassword" type="password" name="repassword" class="fieldinput_normal" maxlength="12"/>
+			</p>
+			<p>
+				<label class="f-label">&nbsp;</label>
+				<input wicket:id="register.submit" type="submit" class="field_btn" value="注册"/>
+			</p>
+		</form>
+	</wicket:panel>
+</html>

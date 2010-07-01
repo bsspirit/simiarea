@@ -1,0 +1,8 @@
+grant principal org.apache.wicket.security.hive.authorization.SimplePrincipal "basic"
+{
+    permission org.apache.wicket.security.hive.authorization.permissions.ComponentPermission "org.conan.simiblog.aboutus.web.Sitemap", "inherit, render";
+    permission org.apache.wicket.security.hive.authorization.permissions.ComponentPermission "org.conan.simiblog.aboutus.web.Sitemap", "enable";
+    permission org.apache.wicket.security.hive.authorization.permissions.ComponentPermission "org.conan.simiblog.aboutus.web.Aboutus", "inherit, render";
+    permission org.apache.wicket.security.hive.authorization.permissions.ComponentPermission "org.conan.simiblog.aboutus.web.Aboutus", "enable";
+    
+};

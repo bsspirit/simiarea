@@ -1,0 +1,156 @@
+.l {
+	float: left;
+	width: 30%;
+}
+
+.r {
+	float: right;
+	width: 70%;
+}
+
+.clear {
+	clear: both;
+}
+
+/*=========new css===========*/
+.form-user {
+	
+}
+
+.form-user p {
+	margin: 10px 0
+}
+
+.form-user .f-label {
+	float: left;
+	margin-right: 15px;
+	text-align: right;
+	width: 80px;
+}
+
+.form-user .hint {
+	color: #999999;
+}
+
+/*=========default.css===========*/
+.fieldinput_short {
+	width: 50px;
+	margin-right: 5px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+}
+
+.fieldinput_normal {
+	width: 150px;
+	margin-right: 5px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+}
+
+.fieldinput_long {
+	width: 250px;
+	margin-right: 5px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+}
+
+.field_btn {
+	padding: 3px;
+	width: 50px;
+	background: #ECECEC url(../images/img08.gif) repeat-x left bottom;
+	border: none;
+	text-transform: lowercase;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+table {
+	border: 1px solid #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+td,th {
+	padding: 3px;
+}
+
+th {
+	text-align: left;
+	font-size: 14px;
+}
+
+#year_month {
+	list-style: none;
+	margin: 3px;
+	padding: 0;
+}
+
+#year_month li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.year_month_box {
+	width: 400px;
+	height: 100px;
+	border: 1px solid #333;
+	margin: 5px;
+	pading: 3px;
+	background-color: #FFFFCC;
+}
+
+#year_month .year_month_box .header {
+	background-color: #EEEEEE;
+	color: #888888;
+}
+
+#year_month .year_month_box .content{
+	margin: 5px ;
+	pading: 0;
+}
+
+#year_month .year_month_box .content ol{
+	margin:0;
+	padding: 0 0 0 5px;
+}
+
+#year_month .year_month_box .content li{
+	display:block;
+	line-height: 1.2em;
+}
+
+#month_day{
+	list-style: none;
+	margin: 3px;
+	padding: 0;
+}
+
+.month_day_box{
+	width: 150px;
+	height: 75px;
+	border: 1px solid #333;
+	margin: 5px;
+	pading: 3px;
+	background-color: #FFFFCC;
+}
+
+#month_day .month_day_box .header {
+	background-color: #EEEEEE;
+	color: #888888;
+}
+
+#month_day .month_day_box .content{
+	margin: 5px ;
+	pading: 0;
+}
+
+#month_day .month_day_box .content ol{
+	margin:0;
+	padding: 0 0 0 5px;
+}
+
+#month_day .month_day_box .content li{
+	display:block;
+	line-height: 1.2em;
+}
