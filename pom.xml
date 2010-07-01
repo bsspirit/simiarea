@@ -176,10 +176,12 @@
         		<groupId>org.apache.maven.plugins</groupId>
         		<artifactId>maven-scm-plugin</artifactId>
         		<version>1.3</version>
+        		<!-- 
         		<configuration>
           			<username>bsspirit@163.com</username>
           			<password>85831923</password>
         		</configuration>
+        		 -->
       		</plugin>
 		</plugins>
 		<finalName>simiarea</finalName>
